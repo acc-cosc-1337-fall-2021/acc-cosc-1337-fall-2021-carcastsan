@@ -1,8 +1,6 @@
-﻿//example
-int add_numbers(int num1, int num2);
+﻿//Carla Castaneda HW Assignment 1 September 10, 2021
 
 //write function prototype here
-
-
+int multiply_numbers(int num1);
 
 
