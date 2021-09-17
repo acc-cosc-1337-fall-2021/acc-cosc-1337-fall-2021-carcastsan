@@ -24,7 +24,7 @@ int main()
 
 	result = multiply_numbers(num1);
 
-	cout<<"Result is: "<<result;
+	cout<<"Result: "<<result;
 	
 	return 0;
 }
