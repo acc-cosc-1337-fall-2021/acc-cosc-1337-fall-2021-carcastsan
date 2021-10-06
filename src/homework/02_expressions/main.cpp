@@ -1,8 +1,7 @@
 ﻿//write include statements
 #include<iostream>
-#inlcude <math.h>
-#include <iomanip>	
-#include "hwexpressions.h"
+#include<iomanip>	
+#include"hwexpressions.h"
 
 
 
