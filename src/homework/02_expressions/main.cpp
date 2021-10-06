@@ -1,9 +1,13 @@
 ﻿//write include statements
 #include<iostream>
+#inlcude <math.h>
+#include <iomanip>	
 #include "hwexpressions.h"
 
+
+
 //write namespace using statement for cout
-using namespace std;
+using std::cin; using std::cout; using std::setw; using std::setprecision; using std::fixed;
 
 
 /*
@@ -17,20 +21,26 @@ int main()
 	double tax_amount;
 	double total;
 
-	cout<<"Enter the total dollar amount of your meal: "
+	cout<<"Enter the total cost of your meal: ";
 	cin>>meal_amount;
 
 	tax_amount = get_sales_tax_amount(meal_amount);
 	
-	cout<<"How much would you like to tip? ";
+	cout<<"How much percent would you like to tip? (enter in 2 digit format with no decimal or symbol) ";
 	cin>>tip_rate;
 
 	tip_amount = get_tip_amount(meal_amount, tip_rate);
 
 	total = tip_amount + tax_amount + meal_amount;
 
-	cout<<"Meal amount: "
-
+	cout << fixed;
+	cout << setprecision(2);
+	cout << "\n";
+	cout << "Your Receipt\n";
+    cout << setw(14) << "Meal amount: $" << setw(5) << meal_amount << "\n";
+    cout << setw(14) << "Sales Tax: $" << setw(5) << tax_amount << "\n";
+	cout << setw(14) << "Tip amount: $" << setw(5) << tip_amount << "\n";
+	cout << setw(14) << "Total: $" << setw(5) << total << "\n";
 
 
 
