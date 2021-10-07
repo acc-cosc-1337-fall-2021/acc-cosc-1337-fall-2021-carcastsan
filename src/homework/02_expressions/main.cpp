@@ -4,8 +4,6 @@
 #include "hwexpressions.h"
 
 
-
-
 //write namespace using statement for cout
 using std::cin; using std::cout; using std::setw; using std::setprecision; using std::fixed;
 
