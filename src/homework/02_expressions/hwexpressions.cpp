@@ -3,7 +3,7 @@
 #include "hwexpressions.h"
 
 //constants
-const double TAX_RATE = 6.75;
+const double TAX_RATE = .0675;
 
 //write function code here
 

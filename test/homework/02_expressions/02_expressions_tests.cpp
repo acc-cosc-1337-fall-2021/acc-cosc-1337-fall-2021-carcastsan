@@ -8,7 +8,6 @@ TEST_CASE("Verify Test Configuration", "verification")
 
 }
 	
-
 TEST_CASE("Test Get Sales Tax")
 {
 	REQUIRE(get_sales_tax_amount(10) == .675);
